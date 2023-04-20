@@ -1,0 +1,44 @@
+.App {
+    background-color: #000;
+    font-family: Arial,
+        "Helvetica Neue",
+        Helvetica,
+        sans-serif;
+    margin: 0;
+    text-align: center;
+    height: 100%;
+}
+
+.image-grid {
+    margin: 0 6px 6px 6px;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px 20px 0 0;
+}
+
+.header-btns {
+    display: flex;
+    gap: 35px;
+}
+
+.header-btns .header-btn {
+    /* padding: 10px 15px; */
+    /* background-color: #333; */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-style: normal;
+    line-height: .75;
+    font-weight: 100;
+}
+
+.header-btns .header-btn:hover {
+    cursor: pointer;
+    color: rgb(0, 187, 135);
+}
