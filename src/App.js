@@ -1,23 +1,26 @@
-import './css/App.css';
 import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
 import Gallery from './Gallery';
+import './css/App.css';
 
 function App() {
   return (
     <div className="App">
-          <header>
-              <div className="header-btns">
-                  <a href="/portfolio" className="header-btn">Portfolio</a>
-                  <a href="/other" className="header-btn">Other</a>
-                  <a href="/about" className="header-btn">About</a>
-                  <a href="/contact" className="header-btn">Contact</a>
-              </div>
-          </header>
-          <div className="image-grid">
-              <Gallery />
-          </div>
+            <Header /> 
+        <div className="image-grid">
+            <Gallery />
+        </div>
+            <Footer />
     </div>
   );
 }
 
 export default App;
+
+// 1. Name in top left header. Same font
+// 2. One of the panes to be text
+// 3. Video play page is like this https://www.willdohrn.net/blog/belfast-with-theo-cottle
+// 4. IMDB: https://m.imdb.com/name/nm14547455/,
+// Insta: https://www.instagram.com/maddywfilm/,
+// TikTok: TBC
