@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
             <Header /> 
-        <div className="image-grid">
+        <div className="main-container">
             <Gallery />
         </div>
             <Footer />
