@@ -4,6 +4,9 @@ import './css/Header.css';
 const Header = () => {
     return (
         <header>
+            <div className="header-title">
+                Maddy Walters
+            </div>
             <div className="header-btns">
                 <a href="/portfolio" className="header-btn">Portfolio</a>
                 <a href="/other" className="header-btn">Other</a>

@@ -8,13 +8,19 @@ const Footer = () => {
         <footer>
             <div className="footer-btns">
                 <div className="footer-btn">
-                    <FontAwesomeIcon icon={faInstagram} size="lg" />
+                    <a href="https://www.instagram.com/maddywfilm/" target="_blank">
+                        <FontAwesomeIcon icon={faInstagram} size="lg" />
+                    </a>
                 </div>
                 <div className="footer-btn">
-                    <FontAwesomeIcon icon={faTiktok} size="lg" />
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        <FontAwesomeIcon icon={faTiktok} size="lg" />
+                    </a>
                 </div>
                 <div className="footer-btn">
-                    <FontAwesomeIcon icon={faImdb} size="lg" />
+                    <a href="https://imdb.com/name/nm14547455/" target="_blank">
+                        <FontAwesomeIcon icon={faImdb} size="xl" />
+                    </a>
                 </div>
             </div>
             <div className="footer-text">

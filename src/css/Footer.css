@@ -1,4 +1,12 @@
-.footer-btns {
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(0, 187, 135);
+}
+
+footer .footer-btns {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,6 +14,6 @@
     margin-bottom: 15px;
 }
 
-.footer-btns .footer-btn {
+footer .footer-btns .footer-btn {
     cursor: pointer;
 }
