@@ -1,0 +1,11 @@
+.about-container {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.about-container .about-image {
+    max-width: 300px;
+    margin: auto;
+}

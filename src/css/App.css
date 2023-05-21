@@ -10,4 +10,5 @@
 
 .App .main-container {
     margin: 0 14px 14px 14px;
+    min-height: calc(100vh - 60px - 60px - 14px - 14px);
 }
