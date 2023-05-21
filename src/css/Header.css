@@ -29,6 +29,12 @@ header .header-btns .header-btn {
     text-decoration: none;
 }
 
+header .header-btns .header-btn.selected {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
 header .header-btns .header-btn:hover, header .header-title .header-title-text:hover {
     cursor: pointer;
     color: rgb(0, 187, 135);

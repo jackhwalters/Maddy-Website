@@ -6,7 +6,9 @@ import {
 } from "react-router-dom";
 import Header from './Header';
 import Footer from './Footer';
-import Gallery from './Gallery';
+import Portfolio from './Portfolio';
+import About from './About';
+import Contact from './Contact';
 import './css/App.css';
 
 function App() {
@@ -17,8 +19,9 @@ function App() {
 
             <div className="main-container">
                 <Switch>
-                    <Route path="/" component={Gallery} />
-                    <Route path="/portfolio" component={() => {return (<div>the Portfolio!</div>)}} />
+                    <Route path="/about" component={About} />
+                    <Route path="/contact" component={Contact} />
+                    <Route path="/" component={Portfolio} />
                 </Switch>                    
             </div>
 
