@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import './css/Header.css';
+import '../css/Header.css';
 
 const HeaderButton = ({toURL, className, buttonText}) => {
     return (

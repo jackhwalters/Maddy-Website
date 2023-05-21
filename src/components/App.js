@@ -9,7 +9,7 @@ import Footer from './Footer';
 import Portfolio from './Portfolio';
 import About from './About';
 import Contact from './Contact';
-import './css/App.css';
+import '../css/App.css';
 
 function App() {
     return (
