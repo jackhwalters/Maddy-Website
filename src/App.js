@@ -1,19 +1,31 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from "react-router-dom";
 import Header from './Header';
 import Footer from './Footer';
 import Gallery from './Gallery';
 import './css/App.css';
 
 function App() {
-  return (
-    <div className="App">
-            <Header /> 
-        <div className="main-container">
-            <Gallery />
-        </div>
+    return (
+        <Router>
+            <div className="App">
+            <Header />
+
+            <div className="main-container">
+                <Switch>
+                    <Route path="/" component={Gallery} />
+                    <Route path="/portfolio" component={() => {return (<div>the Portfolio!</div>)}} />
+                </Switch>                    
+            </div>
+
             <Footer />
-    </div>
-  );
+          </div>
+        </Router>
+    );
 }
 
 export default App;

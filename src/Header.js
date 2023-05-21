@@ -1,17 +1,23 @@
 import React from 'react';
 import './css/Header.css';
 
+const HeaderButton = ({toURL, className, buttonText}) => {
+    return (
+        <a href={toURL} className={className}>{buttonText}</a>
+    )
+}
+
 const Header = () => {
     return (
         <header>
             <div className="header-title">
-                Maddy Walters
+                <HeaderButton toURL="/" className="header-title-text" buttonText="Maddy Walters" />
             </div>
             <div className="header-btns">
-                <a href="/portfolio" className="header-btn">Portfolio</a>
-                <a href="/other" className="header-btn">Other</a>
-                <a href="/about" className="header-btn">About</a>
-                <a href="/contact" className="header-btn">Contact</a>
+                <HeaderButton toURL="/portfolio" className="header-btn" buttonText="Portfolio" />
+                <HeaderButton toURL="/other" className="header-btn" buttonText="Other" />
+                <HeaderButton toURL="/about" className="header-btn" buttonText="About" />
+                <HeaderButton toURL="/contact" className="header-btn" buttonText="Contact" />
             </div>
         </header>
     )

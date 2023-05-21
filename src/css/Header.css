@@ -5,13 +5,14 @@ header {
     align-items: center;
 }
 
-header .header-title {
+header .header-title, header .header-title .header-title-text {
     justify-content: flex-start;
     margin-left: 20px;
     padding: 0 5px 0 5px;
     font-size: 1.15rem;
     /* background-color: white; */
     color: white;
+    text-decoration: none;
 }
 
 header .header-btns {
@@ -28,7 +29,7 @@ header .header-btns .header-btn {
     text-decoration: none;
 }
 
-header .header-btns .header-btn:hover {
+header .header-btns .header-btn:hover, header .header-title .header-title-text:hover {
     cursor: pointer;
     color: rgb(0, 187, 135);
 }
