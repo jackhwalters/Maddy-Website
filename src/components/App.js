@@ -9,6 +9,7 @@ import Footer from './Footer';
 import Portfolio from './Portfolio';
 import About from './About';
 import Contact from './Contact';
+import Watch from './Watch';
 import '../css/App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                 <Switch>
                     <Route path="/about" component={About} />
                     <Route path="/contact" component={Contact} />
+                    <Route path="/watch" component={Watch} />
                     <Route path="/" component={Portfolio} />
                 </Switch>                    
             </div>
