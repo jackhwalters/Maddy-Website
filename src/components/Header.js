@@ -19,8 +19,6 @@ const Header = () => {
             setActiveButton('portfolio');
         } else if (pathname === '/about') {
             setActiveButton('about');
-        } else if (pathname === '/contact') {
-            setActiveButton('contact');
         }
     }, [location]);
 
@@ -38,10 +36,6 @@ const Header = () => {
                     toURL="/about"
                     className={`header-btn ${activeButton === 'about' ? 'selected' : ''}`}
                     buttonText="About" />
-                <HeaderButton
-                    toURL="/contact"
-                    className={`header-btn ${activeButton === 'contact' ? 'selected' : ''}`}
-                    buttonText="Contact" />
             </div>
         </header>
     )

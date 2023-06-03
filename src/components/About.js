@@ -3,6 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import '../css/About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faTiktok, faImdb } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
@@ -28,6 +31,18 @@ const About = () => {
                     <img className="img-fluid about-image" src="images/maddy.jpg" alt="About Image" />
                 </Row>
             </Container>
+            <div className="contact-container-text">
+                <p>
+                    Please reach out through email. I'd love to work together!
+                </p>
+            </div>
+            <div className="contact-btns">
+                <div className="contact-btn">
+                    <a href="mailto: hello@maddywalters.com">
+                        <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                    </a>
+                </div>
+            </div>
         </div>
     )
 }
