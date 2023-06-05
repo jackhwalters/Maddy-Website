@@ -40,4 +40,4 @@ export default App;
 // Insta: https://www.instagram.com/maddywfilm/,
 // TikTok: TBC ✅
 // 5. Mobile header inspo: https://eightinc.com/
-// 6. Combine About and Contact
+// 6. Combine About and Contact ✅
