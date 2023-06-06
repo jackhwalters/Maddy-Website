@@ -1,15 +1,20 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import '../css/About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faTiktok, faImdb } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet-async';
+import '../css/About.css';
 
 const About = () => {
     return (
         <div className="about-container">
+            <Helmet>
+                <title>Maddy Walters | About</title>
+                <meta name="about" content="Maddy Walters about page" />
+            </Helmet>
             <Container fluid>
                 <Row>
                     <p>

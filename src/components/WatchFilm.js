@@ -1,9 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import '../css/WatchItem.css';
 
 const Film1 = () => {
     return (
         <div className="watch-container">
+            <Helmet>
+                <title>Maddy Walters | Film 1</title>
+                <meta name="film1" content="Maddy Walters Film 1" />
+            </Helmet>
             <iframe
                 src="https://player.vimeo.com/video/105989178?h=c56cf5821c"
                 className="iframe-embed"
@@ -30,6 +35,10 @@ const Film1 = () => {
 const Film2 = () => {
     return (
         <div className="watch-container">
+            <Helmet>
+                <title>Maddy Walters | Film 2</title>
+                <meta name="film2" content="Maddy Walters Film 2" />
+            </Helmet>
             <iframe
                 src="https://player.vimeo.com/video/236415943?h=2b46d1839d"
                 className="iframe-embed"
@@ -56,6 +65,10 @@ const Film2 = () => {
 const Film3 = () => {
     return (
         <div className="watch-container">
+            <Helmet>
+                <title>Maddy Walters | Film 3</title>
+                <meta name="film3" content="Maddy Walters Film 3" />
+            </Helmet>
             <iframe
                 src="https://player.vimeo.com/video/221286690?h=bdb4b65535"
                 className="iframe-embed"
