@@ -14,7 +14,7 @@ const Film1 = () => {
             <div className="watch-container-text">
                 <p>
                     <br/>
-                    Maddy's Film 1
+                    <b>Maddy's Film 1</b>
                     <br/>
                     21.5.2023 
                     <br/>
@@ -40,7 +40,7 @@ const Film2 = () => {
             <div className="watch-container-text">
                 <p>
                     <br />
-                    Maddy's Film 2
+                    <b>Maddy's Film 2</b>
                     <br />
                     3.6.2023
                     <br />
@@ -66,7 +66,7 @@ const Film3 = () => {
             <div className="watch-container-text">
                 <p>
                     <br />
-                    Maddy's Film 3
+                    <b>Maddy's Film 3</b>
                     <br />
                     5.6.2023
                     <br />
