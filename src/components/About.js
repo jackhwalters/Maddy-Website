@@ -36,7 +36,7 @@ const About = () => {
                     <img className="img-fluid about-image" src="images/maddy.jpg" alt="About Image" />
                 </Row>
             </Container>
-            <div className="contact-container-text">
+            <div>
                 <p>
                     Please reach out through email. I'd love to work together!
                 </p>

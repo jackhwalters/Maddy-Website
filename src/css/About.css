@@ -1,8 +1,19 @@
-.about-container {
-    padding-top: 12vh;
-    /* padding-bottom: 10vh; */
-    padding-left: 18vw;
-    padding-right: 18vw;
+@media (min-width: 992px) {
+    .about-container {
+        padding-top: 12vh;
+        /* padding-bottom: 10vh; */
+        padding-left: 18vw;
+        padding-right: 18vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-container {
+        padding-top: 9vh;
+        padding-bottom: 9vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
 }
 
 .about-container .about-image {
