@@ -17,7 +17,7 @@ const About = () => {
             </Helmet>
             <Container fluid>
                 <Row>
-                    <p>
+                    <p class="about-bio">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nullam rhoncus aliquam mauris, sit amet egestas quam rutrum nec.
                         Suspendisse potenti. Sed volutpat, neque non efficitur lacinia,
@@ -37,7 +37,7 @@ const About = () => {
                 </Row>
             </Container>
             <div>
-                <p>
+                <p class="about-reachout">
                     Please reach out through email. I'd love to work together!
                 </p>
             </div>

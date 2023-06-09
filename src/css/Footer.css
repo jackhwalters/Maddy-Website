@@ -22,3 +22,7 @@ footer .footer-btns {
 footer .footer-btns .footer-btn {
     cursor: pointer;
 }
+
+footer .footer-text p {
+    font-size: 0.85rem;
+}

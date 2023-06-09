@@ -41,3 +41,11 @@
 .about-container .contact-btns .contact-btn {
     cursor: pointer;
 }
+
+.about-container .about-bio {
+    text-align: right;
+}
+
+.about-container .about-reachout {
+    text-align: center;
+}

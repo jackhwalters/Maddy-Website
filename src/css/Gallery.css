@@ -5,7 +5,7 @@
 .image-container .image-overlay {
     position: absolute;
     display: flex;
-    background-color: #000;
+    background-color: #080808;
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -21,6 +21,10 @@
 
 .image-container .image-overlay p {
     color: #fff;
+}
+
+.image-container p {
+    text-align: right;
 }
 
 @media (min-width: 992px) {

@@ -44,3 +44,7 @@ export default App;
 // TikTok: TBC ✅
 // 5. Mobile version (header inspo: https://eightinc.com/)
 // 6. Combine About and Contact ✅
+// 7. Have straight edges on text box in About ✅
+// 8. Smaller footer text ✅
+// 9. Lighter background ✅
+// 10. Cursor hover start gif on Portfolio

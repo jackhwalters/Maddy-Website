@@ -50,21 +50,14 @@ const Gallery = () => {
                     <Row>
                         <Col>
                             <div className="image-container right-image small-image-bottom">
-                                {/* <div className="image-overlay">
-                                    <p>
-                                        Maddy's Film 3
-                                    </p>
-                                </div>
-                                <img 
-                                    src="images/movie1.png"
-                                    className="img-fluid"
-                                    alt="Small Image 2" /> */}
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-                                in culpa qui officia deserunt mollit anim id est laborum.
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+                                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                                    in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
                             </div>
                         </Col>
                     </Row>
