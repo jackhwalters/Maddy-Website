@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faTiktok, faImdb } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet-async';
 import '../css/About.css';
@@ -18,18 +17,11 @@ const About = () => {
             <Container fluid>
                 <Row>
                     <p class="about-bio">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam rhoncus aliquam mauris, sit amet egestas quam rutrum nec.
-                        Suspendisse potenti. Sed volutpat, neque non efficitur lacinia,
-                        turpis nisi vulputate ex, a fringilla turpis enim vel est.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam rhoncus aliquam mauris, sit amet egestas quam rutrum nec.
-                        Suspendisse potenti. Sed volutpat, neque non efficitur lacinia,
-                        turpis nisi vulputate ex, a fringilla turpis enim vel est.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam rhoncus aliquam mauris, sit amet egestas quam rutrum nec.
-                        Suspendisse potenti. Sed volutpat, neque non efficitur lacinia,
-                        turpis nisi vulputate ex, a fringilla turpis enim vel est.
+                        Madeline Walters is a director from London, UK. She currently studies film whilst 
+                        simultaneously working on projects, taking on various roles. She mainly focuses on 
+                        directing and editing, having brought out her debut documentary 'Skin' when she was 
+                        just 17. Maddy is currently working between mediums such as shorts, to music videos, 
+                        building her experience exponentially.
                     </p>
                 </Row>
                 <Row>
