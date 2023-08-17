@@ -47,5 +47,5 @@ export default App;
 // 7. Have straight edges on text box in About ✅
 // 8. Smaller footer text ✅
 // 9. Lighter background ✅
-// 10. Cursor hover start gif on Portfolio
+// 10. Cursor hover start gif on Portfolio ✅
 // 11. Clean up repo
