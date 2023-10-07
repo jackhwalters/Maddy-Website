@@ -25,7 +25,7 @@ const About = () => {
                     </p>
                 </Row>
                 <Row>
-                    <img className="img-fluid about-image" src="images/maddy.jpg" alt="About Image" />
+                    <img className="img-fluid about-image" src="images/pfps/maddy.jpg" alt="About Image" />
                 </Row>
             </Container>
             <div>
