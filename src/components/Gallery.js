@@ -28,14 +28,14 @@ const Gallery = () => {
                         onMouseEnter={() => {handleMouseEnter(6)}}
                         onMouseLeave={() => {handleMouseExit(6)}}
                     >
-                        <a href="/watch/film1">
+                        <a href="/watch/tender">
                             <div className="image-overlay">
                                 <p>
-                                    Maddy's Film 1
+                                    Tender
                                 </p>
                             </div>
                             <img
-                                src={hoverStateArray[6 - 1][0] ? "gifs/movies1-6.gif" : "images/movie6.png"}
+                                src={hoverStateArray[6 - 1][0] ? "gifs/tender.gif" : "images/tender/tender1.png"}
                                 className="img-fluid"
                                 alt="Large Image" />
                         </a>
@@ -49,14 +49,14 @@ const Gallery = () => {
                                 onMouseEnter={() => {handleMouseEnter(2)}}
                                 onMouseLeave={() => {handleMouseExit(2)}}
                             >
-                                <a href="/watch/film2">
+                                <a href="/watch/strawberryskittles">
                                     <div className="image-overlay">
                                         <p>
-                                            Maddy's Film 2
+                                            Strawberry Skittles
                                         </p>
                                     </div>
                                     <img
-                                        src={hoverStateArray[2 - 1][0] ? "gifs/movies1-6.gif" : "images/movie2.png"}
+                                        src={hoverStateArray[2 - 1][0] ? "gifs/strawberry_skittles.gif" : "images/strawberry_skittles/strawberry_skittles1.png"}
                                         className="img-fluid"
                                         alt="Small Image 1" />
                                 </a>
@@ -88,14 +88,14 @@ const Gallery = () => {
                                 onMouseEnter={() => { handleMouseEnter(5) }}
                                 onMouseLeave={() => { handleMouseExit(5) }}
                             >
-                                <a href="/watch/film3">
+                                <a href="/watch/ialreadyknow">
                                     <div className="image-overlay">
                                         <p>
-                                            Maddy's Film 3
+                                            I Already Know
                                         </p>
                                     </div>
                                     <img
-                                        src={hoverStateArray[5 - 1][0] ? "gifs/movies1-6.gif" : "images/movie5.png"}
+                                        src={hoverStateArray[5 - 1][0] ? "gifs/i_already_know.gif" : "images/i_already_know/i_already_know1.png"}
                                         className="img-fluid left-image"
                                         alt="Small Image 1" />
                                 </a>
@@ -105,18 +105,18 @@ const Gallery = () => {
                     <Row>
                         <Col>
                             <div className="image-container left-image small-image-bottom">
-                                <a href="">
+                                <a href="/watch/dinnerwithyourthoughts">
                                     <div 
                                         className="image-overlay"
                                         onMouseEnter={() => { handleMouseEnter(4) }}
                                         onMouseLeave={() => { handleMouseExit(4) }}
                                     >
                                         <p>
-                                            Maddy's Film 4
+                                            Dinner with Your Thoughts
                                         </p>
                                     </div>
                                     <img
-                                        src={hoverStateArray[4 - 1][0] ? "gifs/movies1-6.gif" : "images/movie4.png"}
+                                        src={hoverStateArray[4 - 1][0] ? "gifs/dinner_with_your_thoughts.gif" : "images/dinner_with_your_thoughts/dinner_with_your_thoughts1.png"}
                                         className="img-fluid"
                                         alt="Small Image 2" />
                                 </a>
@@ -126,18 +126,18 @@ const Gallery = () => {
                 </Col>
                 <Col lg={8} xs={12}>
                     <div className="image-container right-image">
-                        <a href="">
+                        <a href="/watch/dayglow">
                             <div 
                                 className="image-overlay"
                                 onMouseEnter={() => { handleMouseEnter(3) }}
                                 onMouseLeave={() => { handleMouseExit(3) }}
                             >
                                 <p>
-                                    Maddy's Film 5
+                                    Dayglow
                                 </p>
                             </div>
                             <img
-                                src={hoverStateArray[3 - 1][0] ? "gifs/movies1-6.gif" : "images/movie3.png"}
+                                src={hoverStateArray[3 - 1][0] ? "gifs/dayglow.gif" : "images/dayglow/dayglow1.png"}
                                 className="img-fluid"
                                 alt="Large Image" />
                         </a>

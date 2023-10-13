@@ -4,18 +4,22 @@ import {
     Route
 } from 'react-router-dom';
 import {
-    Film1,
-    Film2,
-    Film3
+    Tender,
+    StrawberrySkittles,
+    IAlreadyKnow,
+    DinnerWithYourThoughts,
+    Dayglow
 } from './WatchFilm';
 
 const Watch = ({ match }) => {
     return (
         <Switch>
             <Route>
-                <Route path={`${match.url}/film1`} component={Film1} />
-                <Route path={`${match.url}/film2`} component={Film2} />
-                <Route path={`${match.url}/film3`} component={Film3} />
+                <Route path={`${match.url}/tender`} component={Tender} />
+                <Route path={`${match.url}/strawberryskittles`} component={StrawberrySkittles} />
+                <Route path={`${match.url}/ialreadyknow`} component={IAlreadyKnow} />
+                <Route path={`${match.url}/dinnerwithyourthoughts`} component={DinnerWithYourThoughts} />
+                <Route path={`${match.url}/dayglow`} component={Dayglow} />
             </Route>
         </Switch>
     )

@@ -5,7 +5,7 @@
         left: 15%;
         bottom: 0;
         right: 15%;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         overflow: scroll;
     }
 }
@@ -17,7 +17,7 @@
         left: 2vw;
         bottom: 0vh;
         right: 2vw;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         overflow: scroll;
     }
 }

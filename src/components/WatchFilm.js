@@ -2,94 +2,175 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import '../css/WatchItem.css';
 
-const Film1 = () => {
+const Tender = () => {
     return (
         <div className="watch-container">
             <Helmet>
-                <title>Maddy Walters | Film 1</title>
-                <meta name="film1" content="Maddy Walters Film 1" />
+                <title>Maddy Walters | Tender</title>
+                <meta name="tender" content="Tender" />
             </Helmet>
             <iframe
-                src="https://player.vimeo.com/video/105989178?h=c56cf5821c"
-                className="iframe-embed"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen>
+                width="800"
+                height="450"
+                src="https://www.youtube.com/"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
             </iframe>
             <div className="watch-container-text">
                 <p>
                     <br/>
-                    <b>Maddy's Film 1</b>
+                    <b>Tender</b>
                     <br/>
-                    21.5.2023 
+                    December 2023 
                     <br/>
                     <br/>
-                    This is a short blurb about Maddy's Film 1. Maybe there could be some 
-                    information about when and where it was filmed, and who you worked with.
+                    Role: Clapper and Lead Editor.
+                    <br/>
+                    Tender follows a young chef who will anything to reach the top.
                 </p>
             </div>
         </div>
     )
 }
 
-const Film2 = () => {
+const StrawberrySkittles = () => {
     return (
         <div className="watch-container">
             <Helmet>
-                <title>Maddy Walters | Film 2</title>
-                <meta name="film2" content="Maddy Walters Film 2" />
+                <title>Maddy Walters | Strawberry Skittles</title>
+                <meta name="strawberryskittles" content="Strawberry Skittles" />
             </Helmet>
-            <iframe
-                src="https://player.vimeo.com/video/236415943?h=2b46d1839d"
-                className="iframe-embed"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen>
+            <iframe 
+                width="800" 
+                height="450" 
+                src="https://www.youtube.com/embed/PBW3g_qhjds?si=JLaBL0hZXhsy1aZX" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
             </iframe>
             <div className="watch-container-text">
                 <p>
                     <br />
-                    <b>Maddy's Film 2</b>
+                    <b>Strawberry Skittles</b>
                     <br />
-                    3.6.2023
+                    May 2023
                     <br />
                     <br />
-                    This is a short blurb about Maddy's Film 2. Maybe there could be some
-                    information about when and where it was filmed, and who you worked with.
+                    Role: Director and Editor.
+                    <br />
+                    Strawberry Skittles is a music video featuring a song written by by Noelle Caroll.
                 </p>
             </div>
         </div>
     )
 }
 
-const Film3 = () => {
+const IAlreadyKnow = () => {
     return (
         <div className="watch-container">
             <Helmet>
-                <title>Maddy Walters | Film 3</title>
-                <meta name="film3" content="Maddy Walters Film 3" />
+                <title>Maddy Walters | I Already Know</title>
+                <meta name="ialreadyknow" content="I Already Know" />
             </Helmet>
             <iframe
-                src="https://player.vimeo.com/video/221286690?h=bdb4b65535"
-                className="iframe-embed"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen>
+                width="800"
+                height="450"
+                src="https://www.youtube.com/embed/dMxZCmdw6cQ?si=0Wi4FVme5fHml2ES"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
             </iframe>
             <div className="watch-container-text">
                 <p>
                     <br />
-                    <b>Maddy's Film 3</b>
+                    <b>I Already Know</b>
                     <br />
-                    5.6.2023
+                    September 2023
                     <br />
                     <br />
-                    This is a short blurb about Maddy's Film 3. Maybe there could be some
-                    information about when and where it was filmed, and who you worked with.
+                    Role: Director and Editor.
+                    <br />
+                    N/A, featuring a song written by Flora Fiora.
                 </p>
             </div>
         </div>
     )
 }
 
-export {Film1, Film2, Film3};
+const DinnerWithYourThoughts = () => {
+    return (
+        <div className="watch-container">
+            <Helmet>
+                <title>Maddy Walters | Dinner With Your Thoughts</title>
+                <meta name="dinnerwithyourthoughts" content="Dinner With Your Thoughts" />
+            </Helmet>
+            <iframe
+                width="800"
+                height="450"
+                src="https://www.youtube.com/embed/PBO9U95q3dk?si=PWXvCKzTXAXup0d-"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+            <div className="watch-container-text">
+                <p>
+                    <br />
+                    <b>Dinner With Your Thoughts</b>
+                    <br />
+                    May 2023
+                    <br />
+                    <br />
+                    Role: Director and Editor.
+                    <br />
+                    Dinner With Your Thoughts follows a new couple on their first date, along with all their inner thoughts that come with it.
+                </p>
+            </div>
+        </div>
+    )
+}
+
+const Dayglow = () => {
+    return (
+        <div className="watch-container">
+            <Helmet>
+                <title>Maddy Walters | Dayglow</title>
+                <meta name="dayglow" content="Dayglow" />
+            </Helmet>
+            <iframe
+                width="800"
+                height="450"
+                src="https://www.youtube.com/embed/oah9mf9Wi48?si=lfpjzdp1sj_OZX-g"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+            <div className="watch-container-text">
+                <p>
+                    <br />
+                    <b>Dayglow</b>
+                    <br />
+                    October 2023
+                    <br />
+                    <br />
+                    Role: Director and Editor.
+                    <br />
+                    N/A, featuring a song written by Finn Mungo.
+                </p>
+            </div>
+        </div>
+    )
+}
+
+export {
+    Tender,
+    StrawberrySkittles,
+    IAlreadyKnow,
+    DinnerWithYourThoughts,
+    Dayglow
+};
