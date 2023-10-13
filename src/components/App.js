@@ -35,18 +35,3 @@ function App() {
 }
 
 export default App;
-
-// 1. Name in top left header. Same font ✅
-// 2. One of the panes to be text ✅
-// 3. Video play page is like this https://www.willdohrn.net/blog/belfast-with-theo-cottle ✅
-// 4. IMDB: https://m.imdb.com/name/nm14547455/,
-// Insta: https://www.instagram.com/maddywfilm/,
-// TikTok: TBC ✅
-// 5. Mobile version (header inspo: https://eightinc.com/)
-// 6. Combine About and Contact ✅
-// 7. Have straight edges on text box in About ✅
-// 8. Smaller footer text ✅
-// 9. Lighter background ✅
-// 10. Cursor hover start gif on Portfolio ✅
-// 11. Implement test coverage across all components
-// 12. Clean up repo
