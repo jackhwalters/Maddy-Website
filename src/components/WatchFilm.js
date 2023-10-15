@@ -10,9 +10,9 @@ const Tender = () => {
                 <meta name="tender" content="Tender" />
             </Helmet>
             <iframe
-                width="800"
-                height="450"
-                src="https://www.youtube.com/"
+                width="85%"
+                height="65%"
+                src="https://www.youtube.com/embed/E3AnQ7Nlnug?si=JmoZxFNcdn1ViruJ"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -43,8 +43,8 @@ const StrawberrySkittles = () => {
                 <meta name="strawberryskittles" content="Strawberry Skittles" />
             </Helmet>
             <iframe 
-                width="800" 
-                height="450" 
+                width="85%"
+                height="65%"
                 src="https://www.youtube.com/embed/PBW3g_qhjds?si=JLaBL0hZXhsy1aZX" 
                 title="YouTube video player" 
                 frameborder="0" 
@@ -76,8 +76,8 @@ const IAlreadyKnow = () => {
                 <meta name="ialreadyknow" content="I Already Know" />
             </Helmet>
             <iframe
-                width="800"
-                height="450"
+                width="85%"
+                height="65%"
                 src="https://www.youtube.com/embed/dMxZCmdw6cQ?si=0Wi4FVme5fHml2ES"
                 title="YouTube video player"
                 frameborder="0"
@@ -109,8 +109,8 @@ const DinnerWithYourThoughts = () => {
                 <meta name="dinnerwithyourthoughts" content="Dinner With Your Thoughts" />
             </Helmet>
             <iframe
-                width="800"
-                height="450"
+                width="85%"
+                height="65%"
                 src="https://www.youtube.com/embed/PBO9U95q3dk?si=PWXvCKzTXAXup0d-"
                 title="YouTube video player"
                 frameborder="0"
@@ -142,8 +142,8 @@ const Dayglow = () => {
                 <meta name="dayglow" content="Dayglow" />
             </Helmet>
             <iframe
-                width="800"
-                height="450"
+                width="85%"
+                height="65%"
                 src="https://www.youtube.com/embed/oah9mf9Wi48?si=lfpjzdp1sj_OZX-g"
                 title="YouTube video player"
                 frameborder="0"
