@@ -13,7 +13,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="footer-btn">
-                    <a href="https://www.tiktok.com/" target="_blank">
+                    <a href="https://www.tiktok.com/@maddogpictures" target="_blank">
                         <FontAwesomeIcon icon={faTiktok} size="lg" />
                     </a>
                 </div>
