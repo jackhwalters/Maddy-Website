@@ -23,7 +23,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 4. IMDB: https://m.imdb.com/name/nm14547455/,
 Insta: https://www.instagram.com/maddywfilm/,
 TikTok: TBC ✅
-5. Mobile version (header inspo: https://eightinc.com/)
+5. Mobile version (header inspo: https://eightinc.com/) ✅
 6. Combine About and Contact ✅
 7. Have straight edges on text box in About ✅
 8. Smaller footer text ✅
