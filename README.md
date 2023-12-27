@@ -31,5 +31,5 @@ TikTok: TBC ✅
 10. Cursor hover start gif on Portfolio ✅
 11. Implement test coverage across all components
 12. Clean up repo ✅
-13. Sort favicon
+13. Sort favicon ✅
 14. Set up analytics
