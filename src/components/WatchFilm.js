@@ -14,9 +14,9 @@ const Tender = () => {
                 height="65%"
                 src="https://www.youtube.com/embed/E3AnQ7Nlnug?si=JmoZxFNcdn1ViruJ"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
+                allowFullScreen>
             </iframe>
             <div className="watch-container-text">
                 <p>
@@ -47,9 +47,9 @@ const StrawberrySkittles = () => {
                 height="65%"
                 src="https://www.youtube.com/embed/PBW3g_qhjds?si=JLaBL0hZXhsy1aZX" 
                 title="YouTube video player" 
-                frameborder="0" 
+                frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
+                allowFullScreen>
             </iframe>
             <div className="watch-container-text">
                 <p>
@@ -80,9 +80,9 @@ const IAlreadyKnow = () => {
                 height="65%"
                 src="https://www.youtube.com/embed/dMxZCmdw6cQ?si=0Wi4FVme5fHml2ES"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
+                allowFullScreen>
             </iframe>
             <div className="watch-container-text">
                 <p>
@@ -113,9 +113,9 @@ const DinnerWithYourThoughts = () => {
                 height="65%"
                 src="https://www.youtube.com/embed/PBO9U95q3dk?si=PWXvCKzTXAXup0d-"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
+                allowFullScreen>
             </iframe>
             <div className="watch-container-text">
                 <p>
@@ -146,9 +146,9 @@ const Dayglow = () => {
                 height="65%"
                 src="https://www.youtube.com/embed/oah9mf9Wi48?si=lfpjzdp1sj_OZX-g"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
+                allowFullScreen>
             </iframe>
             <div className="watch-container-text">
                 <p>
