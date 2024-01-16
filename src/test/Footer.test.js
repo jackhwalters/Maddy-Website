@@ -2,10 +2,8 @@ import '@testing-library/jest-dom'
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Footer from '../components/Footer';
-import { faInstagram, faTiktok, faImdb } from '@fortawesome/free-brands-svg-icons'
 
 describe('Footer component', () => {
-
     test('Social media buttons with correct hyperrefs', () => {
         render(<Footer />);
         const instagramLink = screen.getByTestId('insta-button');
@@ -30,9 +28,6 @@ describe('Footer component', () => {
 
     test('Copyright text is rendered', () => {
         render(<Footer />);
-        const instagramLink = screen.getByTestId('insta-button');
-        const tiktokLink = screen.getByTestId('tiktok-button');
-        const imdbLink = screen.getByTestId('imdb-button');
 
         expect(screen.getByText(/© Maddy Walters 2023. All rights reserved./i)).toBeInTheDocument();
     });
