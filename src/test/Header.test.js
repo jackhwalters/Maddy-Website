@@ -17,7 +17,6 @@ describe('Header component', () => {
 
     test('Title text is rendered', () => {
         render(<Header />);
-
         expect(screen.getByText(/Maddy Walters/i)).toBeInTheDocument();
     });
 

@@ -16,7 +16,7 @@ describe('Footer component', () => {
     });
 
     test('Social media buttons have correct icons', () => {
-        render(<Footer />)
+        render(<Footer />);
         const instagramIcon = screen.getByTestId('insta-icon');
         const tiktokIcon = screen.getByTestId('tiktok-icon');
         const imdbIcon = screen.getByTestId('imdb-icon');
@@ -28,7 +28,6 @@ describe('Footer component', () => {
 
     test('Copyright text is rendered', () => {
         render(<Footer />);
-
         expect(screen.getByText(/© Maddy Walters 2023. All rights reserved./i)).toBeInTheDocument();
     });
 });
