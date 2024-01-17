@@ -1,14 +1,10 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import '../css/WatchItem.css';
 
 const Tender = () => {
+    document.title = "Maddy Walters | Tender"
     return (
         <div className="watch-container">
-            <Helmet>
-                <title>Maddy Walters | Tender</title>
-                <meta name="tender" content="Tender" />
-            </Helmet>
             <iframe
                 width="85%"
                 height="65%"
@@ -36,12 +32,9 @@ const Tender = () => {
 }
 
 const StrawberrySkittles = () => {
+    document.title = "Maddy Walters | Strawberry Skittles"
     return (
         <div className="watch-container">
-            <Helmet>
-                <title>Maddy Walters | Strawberry Skittles</title>
-                <meta name="strawberryskittles" content="Strawberry Skittles" />
-            </Helmet>
             <iframe 
                 width="85%"
                 height="65%"
@@ -69,12 +62,9 @@ const StrawberrySkittles = () => {
 }
 
 const IAlreadyKnow = () => {
+    document.title = "Maddy Walters | I Already Know"
     return (
         <div className="watch-container">
-            <Helmet>
-                <title>Maddy Walters | I Already Know</title>
-                <meta name="ialreadyknow" content="I Already Know" />
-            </Helmet>
             <iframe
                 width="85%"
                 height="65%"
@@ -102,12 +92,9 @@ const IAlreadyKnow = () => {
 }
 
 const DinnerWithYourThoughts = () => {
+    document.title = "Maddy Walters | Dinner with Your Thoughts"
     return (
         <div className="watch-container">
-            <Helmet>
-                <title>Maddy Walters | Dinner With Your Thoughts</title>
-                <meta name="dinnerwithyourthoughts" content="Dinner With Your Thoughts" />
-            </Helmet>
             <iframe
                 width="85%"
                 height="65%"
@@ -135,12 +122,9 @@ const DinnerWithYourThoughts = () => {
 }
 
 const Dayglow = () => {
+    document.title = "Maddy Walters | Dayglow"
     return (
         <div className="watch-container">
-            <Helmet>
-                <title>Maddy Walters | Dayglow</title>
-                <meta name="dayglow" content="Dayglow" />
-            </Helmet>
             <iframe
                 width="85%"
                 height="65%"

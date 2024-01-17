@@ -2,16 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Helmet } from 'react-helmet-async';
 import '../css/About.css';
 
 const About = () => {
+    document.title = "Maddy Walters | About"
     return (
         <div className="about-container">
-            <Helmet>
-                <title>Maddy Walters | About</title>
-                <meta name="about" content="Maddy Walters about page" />
-            </Helmet>
             <Container fluid>
                 <Row>
                     <img className="img-fluid about-image" src="images/pfps/maddy.jpg" alt="About Image" />

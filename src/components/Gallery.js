@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Helmet } from 'react-helmet-async';
 import '../css/Gallery.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Gallery = () => {
+    document.title = "Maddy Walters | Portfolio"
 
     const hoverStateArray = [];
     for (let i = 0; i < 6; i++) { hoverStateArray.push(useState(false)); }
@@ -17,10 +17,6 @@ const Gallery = () => {
     
     return (
         <Container fluid>
-            <Helmet>
-                <title>Maddy Walters | Portfolio</title>
-                <meta name="portfolio" content="Maddy Walters portfolio page" />
-            </Helmet>
             <Row>
                 <Col lg={8} xs={12}>
                     <div 
