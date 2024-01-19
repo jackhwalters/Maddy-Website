@@ -9,7 +9,7 @@ const Gallery = () => {
     document.title = "Maddy Walters | Portfolio"
 
     const hoverStateArray = [];
-    for (let i = 0; i < 6; i++) { hoverStateArray.push(useState(false)); }
+    for (let i = 0; i < 7; i++) { hoverStateArray.push(useState(false)); }
 
     const handleMouseEnter = (movieNum) => { hoverStateArray[movieNum - 1][1](true); }
 
@@ -61,7 +61,7 @@ const Gallery = () => {
                     </Row>
                     <Row>
                         <Col>
-                            <div className="image-container right-image small-image-bottom">
+                            <div className="image-container right-image small-image-bottom-upper">
                                 <a href="/watch/dinnerwithyourthoughts">
                                     <div
                                         className="image-overlay"
@@ -107,12 +107,28 @@ const Gallery = () => {
                     </Row>
                     <Row>
                         <Col>
-                            <div className="image-container left-image small-image-bottom"></div>
+                            <div 
+                                className="image-container left-image small-image-bottom"
+                                onMouseEnter={() => { handleMouseEnter(5) }}
+                                onMouseLeave={() => { handleMouseExit(5) }}
+                            >
+                                <a href="/watch/tender">
+                                    <div className="image-overlay">
+                                        <p>
+                                            Tender 
+                                        </p>
+                                    </div>
+                                    <img
+                                        src={hoverStateArray[5 - 1][0] ? "gifs/tender.gif" : "images/tender/tender4.png"}
+                                        className="img-fluid left-image"
+                                        alt="Small Image 1" />
+                                </a>
+                            </div>
                         </Col>
                     </Row>
                 </Col>
                 <Col lg={8} xs={12}>
-                    <div className="image-container right-image">
+                    <div className="image-container right-image bottom">
                         <a href="/watch/dayglow">
                             <div 
                                 className="image-overlay"
@@ -124,7 +140,7 @@ const Gallery = () => {
                                 </p>
                             </div>
                             <img
-                                src={hoverStateArray[6 - 1][0] ? "gifs/dayglow.gif" : "images/dayglow/dayglow1.png"}
+                                src={hoverStateArray[6 - 1][0] ? "gifs/dayglow.gif" : "images/dayglow/dayglow8.png"}
                                 className="img-fluid"
                                 alt="Large Image" />
                         </a>
