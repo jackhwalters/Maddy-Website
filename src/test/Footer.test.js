@@ -15,6 +15,17 @@ describe('Footer component', () => {
         expect(imdbLink).toHaveAttribute('href', 'https://imdb.com/name/nm14547455/');
     });
 
+    test('Social media buttons open in new tab', () => {
+        render(<Footer />);
+        const instagramLink = screen.getByTestId('insta-button');
+        const tiktokLink = screen.getByTestId('tiktok-button');
+        const imdbLink = screen.getByTestId('imdb-button');
+
+        expect(instagramLink).toHaveAttribute('target', '_blank');
+        expect(tiktokLink).toHaveAttribute('target', '_blank');
+        expect(imdbLink).toHaveAttribute('target', '_blank');
+    });
+
     test('Social media buttons have correct icons', () => {
         render(<Footer />);
         const instagramIcon = screen.getByTestId('insta-icon');

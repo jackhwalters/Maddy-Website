@@ -12,7 +12,6 @@ describe('About component', () => {
     test('About section contains correct links', () => {
         render(<About />);
 
-        // Check for links in the About component
         const madDogLink = screen.getByTestId('mad-dog-link');
         const emailLink = screen.getByTestId('maddy-email');
 
