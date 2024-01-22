@@ -29,7 +29,7 @@ TikTok: TBC ✅
 8. Smaller footer text ✅
 9. Lighter background ✅
 10. Cursor hover start gif on Portfolio ✅
-11. Implement test coverage across all components
+11. Implement test coverage across all components ✅
 12. Clean up repo ✅
 13. Sort favicon ✅
 14. Set up analytics

@@ -22,8 +22,8 @@ describe('Header component', () => {
 
     test('Portfolio button is selected when location is /', () => {
         render(<Header />)
-        const portfolioButton = screen.getByTestId('portfolio-button');
-        const aboutButton = screen.getByTestId('about-button');
+        const portfolioButton = screen.getByTestId('header-portfolio-button');
+        const aboutButton = screen.getByTestId('header-about-button');
 
         expect(portfolioButton).toHaveClass('header-btn selected');
         expect(aboutButton).toHaveClass('header-btn');
@@ -34,8 +34,8 @@ describe('Header component', () => {
             pathname: '/about'
         });
         render(<Header />)
-        const portfolioButton = screen.getByTestId('portfolio-button');
-        const aboutButton = screen.getByTestId('about-button');
+        const portfolioButton = screen.getByTestId('header-portfolio-button');
+        const aboutButton = screen.getByTestId('header-about-button');
 
         expect(portfolioButton).toHaveClass('header-btn');
         expect(aboutButton).toHaveClass('header-btn selected');

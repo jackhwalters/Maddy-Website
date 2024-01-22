@@ -28,9 +28,9 @@ describe('Footer component', () => {
 
     test('Social media buttons have correct icons', () => {
         render(<Footer />);
-        const instagramIcon = screen.getByTestId('insta-icon');
-        const tiktokIcon = screen.getByTestId('tiktok-icon');
-        const imdbIcon = screen.getByTestId('imdb-icon');
+        const instagramIcon = screen.getByTestId('footer-insta-icon');
+        const tiktokIcon = screen.getByTestId('footer-tiktok-icon');
+        const imdbIcon = screen.getByTestId('footer-imdb-icon');
 
         expect(instagramIcon).toHaveAttribute('data-icon', 'instagram');
         expect(tiktokIcon).toHaveAttribute('data-icon', 'tiktok');

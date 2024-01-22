@@ -29,7 +29,7 @@ const Header = () => {
                     toURL="/"
                     className="header-title-text"
                     buttonText="Maddy Walters"
-                    dataTestId="name-button"
+                    dataTestId="header-name-button"
                 />
             </div>
             <div className="header-btns">
@@ -37,13 +37,13 @@ const Header = () => {
                     toURL="/"
                     className={`header-btn ${activeButton === 'portfolio' ? 'selected' : ''}`}
                     buttonText="Portfolio"
-                    dataTestId="portfolio-button"
+                    dataTestId="header-portfolio-button"
                 />
                 <HeaderButton
                     toURL="/about"
                     className={`header-btn ${activeButton === 'about' ? 'selected' : ''}`}
                     buttonText="About"
-                    dataTestId="about-button"
+                    dataTestId="header-about-button"
                 />
             </div>
         </header>
