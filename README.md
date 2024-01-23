@@ -32,5 +32,5 @@ TikTok: TBC ✅
 11. Implement test coverage across all components ✅
 12. Clean up repo ✅
 13. Sort favicon ✅
-14. Set up analytics
+14. Set up analytics ✅
 15. Containerise ✅
