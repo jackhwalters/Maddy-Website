@@ -92,7 +92,7 @@ const Gallery = () => {
             <Row className="middle-row">
                 <Col lg={4} xs={12}>
                     <Row>
-                        <Col>
+                        <Col className="left-image-col">
                             <div 
                                 className="image-container left-image"
                                 onMouseEnter={() => { handleMouseEnter(4) }}
@@ -115,7 +115,7 @@ const Gallery = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col className="left-image-bottom-col">
                             <div 
                                 className="image-container left-image small-image-bottom"
                                 onMouseEnter={() => { handleMouseEnter(5) }}
