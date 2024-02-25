@@ -120,19 +120,19 @@ const Gallery = () => {
                                 className="image-container left-image small-image-bottom"
                                 onMouseEnter={() => { handleMouseEnter(5) }}
                                 onMouseLeave={() => { handleMouseExit(5) }}
-                                data-testid="container-tender-2"
+                                data-testid="container-dayglow-2"
                             >
-                                <a href="/watch/tender">
+                                <a href="/watch/dayglow">
                                     <div className="image-overlay">
                                         <p>
-                                            Tender 
+                                            Dayglow 
                                         </p>
                                     </div>
                                     <img
-                                        src={hoverStateArray[5 - 1][0] ? "gifs/tender.gif" : "images/tender/tender4.png"}
+                                        src={hoverStateArray[5 - 1][0] ? "gifs/dayglow2.gif" : "images/dayglow/dayglow4.png"}
                                         className="img-fluid left-image"
-                                        alt="Tender"
-                                        data-testid="image-tender-2" />
+                                        alt="Dayglow"
+                                        data-testid="image-dayglow-2" />
                                 </a>
                             </div>
                         </Col>

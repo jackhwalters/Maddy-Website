@@ -15,7 +15,7 @@ describe('Gallery component', () => {
             ['image-strawberryskittles', 'gifs/strawberry_skittles.gif', 'container-strawberryskittles'],
             ['image-dwyt', 'gifs/dinner_with_your_thoughts.gif', 'container-dwyt'],
             ['image-ialreadyknow', 'gifs/i_already_know.gif', 'container-ialreadyknow'],
-            ['image-tender-2', 'gifs/tender.gif', 'container-tender-2'],
+            ['image-dayglow-2', 'gifs/dayglow2.gif', 'container-dayglow-2'],
             ['image-dayglow', 'gifs/dayglow.gif', 'container-dayglow'],
         ]
     )('%s has src %s when %s is hovered over', (image, expected, container) => {
