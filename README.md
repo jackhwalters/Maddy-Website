@@ -20,13 +20,13 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ---
 
-### `docker build -t maddywebsite .`
+### `docker build -t maddy-website .`
 
 Build the website in a Docker container, from the `node:16.14.2-alpine` base image.
 
 ---
 
-### `docker run -p 3000:3000 --name maddywebsite --rm maddywebsite`
+### `docker run -p 3000:3000 --name maddy-website --rm maddy-website`
 
 Run the Docker container, built by the previously mentioned `docker build -t maddywebsite .` command.
 
