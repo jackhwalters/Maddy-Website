@@ -39,6 +39,6 @@ describe('Footer component', () => {
 
     test('Copyright text is rendered', () => {
         render(<Footer />);
-        expect(screen.getByText(/© Maddy Walters 2023. All rights reserved./i)).toBeInTheDocument();
+        expect(screen.getByText(/© Maddy Walters \d{4}\. All rights reserved\./i)).toBeInTheDocument();
     });
 });
