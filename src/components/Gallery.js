@@ -50,23 +50,23 @@ const Gallery = () => {
                 <Col lg={4} xs={12}>
                     <Row>
                         <Col>
-                            <div 
-                                className="image-container right-image"
-                                onMouseEnter={isHoverEnabled ? () => handleMouseEnter(2) : null}
-                                onMouseLeave={isHoverEnabled ? () => handleMouseExit(2) : null}
-                                data-testid="container-strawberryskittles"
-                            >
-                                <a href="/watch/strawberryskittles">
-                                    <div className="image-overlay">
+                            <div className="image-container right-image bottom">
+                                <a href="/watch/dayglow">
+                                    <div 
+                                        className="image-overlay"
+                                        onMouseEnter={isHoverEnabled ? () => handleMouseEnter(2) : null}
+                                        onMouseLeave={isHoverEnabled ? () => handleMouseExit(2) : null}
+                                        data-testid="container-dayglow"
+                                    >
                                         <p>
-                                            Strawberry Skittles
+                                            Dayglow
                                         </p>
                                     </div>
                                     <img
-                                        src={hoverStateArray[2 - 1][0] ? "gifs/strawberry_skittles.gif" : "images/strawberry_skittles/strawberry_skittles1.png"}
+                                        src={hoverStateArray[2 - 1][0] ? "gifs/dayglow.gif" : "images/dayglow/dayglow8.png"}
                                         className="img-fluid"
-                                        alt="Strawberry Skittles"
-                                        data-testid="image-strawberryskittles" />
+                                        alt="Dayglow"
+                                        data-testid="image-dayglow" />
                                 </a>
                             </div>
                         </Col>
@@ -146,23 +146,23 @@ const Gallery = () => {
                     </Row>
                 </Col>
                 <Col lg={8} xs={12}>
-                    <div className="image-container right-image bottom">
-                        <a href="/watch/dayglow">
-                            <div 
-                                className="image-overlay"
-                                onMouseEnter={isHoverEnabled ? () => handleMouseEnter(6) : null}
-                                onMouseLeave={isHoverEnabled ? () => handleMouseExit(6) : null}
-                                data-testid="container-dayglow"
-                            >
+                    <div 
+                        className="image-container right-image"
+                        onMouseEnter={isHoverEnabled ? () => handleMouseEnter(6) : null}
+                        onMouseLeave={isHoverEnabled ? () => handleMouseExit(6) : null}
+                        data-testid="container-strawberryskittles"
+                    >
+                        <a href="/watch/strawberryskittles">
+                            <div className="image-overlay">
                                 <p>
-                                    Dayglow
+                                    Strawberry Skittles
                                 </p>
                             </div>
                             <img
-                                src={hoverStateArray[6 - 1][0] ? "gifs/dayglow.gif" : "images/dayglow/dayglow8.png"}
+                                src={hoverStateArray[6 - 1][0] ? "gifs/strawberry_skittles.gif" : "images/strawberry_skittles/strawberry_skittles1.png"}
                                 className="img-fluid"
-                                alt="Dayglow"
-                                data-testid="image-dayglow" />
+                                alt="Strawberry Skittles"
+                                data-testid="image-strawberryskittles" />
                         </a>
                     </div>
                 </Col>
