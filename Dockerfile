@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM node:16.14.2-alpine
+FROM node:16.14.2-alpine as build
 
 WORKDIR /home/node/app
 
@@ -11,6 +11,13 @@ COPY . .
 
 RUN npm run build
 
-EXPOSE 3000
+FROM nginx:1.16.0-alpine
 
-ENTRYPOINT [ "npx", "serve", "-s", "build", "-p", "3000" ]
+COPY --from=build /home/node/app/build /usr/share/nginx/html
+
+RUN rm /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/conf.d
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
