@@ -108,4 +108,8 @@
     .middle-row .left-image-bottom-col {
         margin-bottom: -30px;
     }
+
+    .image-container .image-overlay {
+        display: none;
+    }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -16,14 +16,21 @@ const Gallery = () => {
 
     for (let i = 0; i < 7; i++) { hoverStateArray.push(useState(false)); }
 
+    useEffect(() => {
+        const isTouchDevice = 'ontouchstart' in window || navigator.msMaxTouchPoints;
+        setIsHoverEnabled(!isTouchDevice);
+    }, []);
+
+    const [isHoverEnabled, setIsHoverEnabled] = useState(true);
+
     return (
         <Container fluid>
             <Row>
                 <Col lg={8} xs={12}>
                     <div 
                         className="image-container left-image"
-                        onMouseEnter={() => {handleMouseEnter(1)}}
-                        onMouseLeave={() => {handleMouseExit(1)}}
+                        onMouseEnter={isHoverEnabled ? () => handleMouseEnter(1) : null}
+                        onMouseLeave={isHoverEnabled ? () => handleMouseExit(1) : null}
                         data-testid="container-tender-1"
                     >
                         <a href="/watch/tender">
@@ -45,8 +52,8 @@ const Gallery = () => {
                         <Col>
                             <div 
                                 className="image-container right-image"
-                                onMouseEnter={() => {handleMouseEnter(2)}}
-                                onMouseLeave={() => {handleMouseExit(2)}}
+                                onMouseEnter={isHoverEnabled ? () => handleMouseEnter(2) : null}
+                                onMouseLeave={isHoverEnabled ? () => handleMouseExit(2) : null}
                                 data-testid="container-strawberryskittles"
                             >
                                 <a href="/watch/strawberryskittles">
@@ -70,8 +77,8 @@ const Gallery = () => {
                                 <a href="/watch/dinnerwithyourthoughts">
                                     <div
                                         className="image-overlay"
-                                        onMouseEnter={() => { handleMouseEnter(3) }}
-                                        onMouseLeave={() => { handleMouseExit(3) }}
+                                        onMouseEnter={isHoverEnabled ? () => handleMouseEnter(3) : null}
+                                        onMouseLeave={isHoverEnabled ? () => handleMouseExit(3) : null}
                                         data-testid="container-dwyt"
                                     >
                                         <p>
@@ -95,8 +102,8 @@ const Gallery = () => {
                         <Col className="left-image-col">
                             <div 
                                 className="image-container left-image"
-                                onMouseEnter={() => { handleMouseEnter(4) }}
-                                onMouseLeave={() => { handleMouseExit(4) }}
+                                onMouseEnter={isHoverEnabled ? () => handleMouseEnter(4) : null}
+                                onMouseLeave={isHoverEnabled ? () => handleMouseExit(4) : null}
                                 data-testid="container-ialreadyknow"
                             >
                                 <a href="/watch/ialreadyknow">
@@ -118,8 +125,8 @@ const Gallery = () => {
                         <Col className="left-image-bottom-col">
                             <div 
                                 className="image-container left-image small-image-bottom"
-                                onMouseEnter={() => { handleMouseEnter(5) }}
-                                onMouseLeave={() => { handleMouseExit(5) }}
+                                onMouseEnter={isHoverEnabled ? () => handleMouseEnter(5) : null}
+                                onMouseLeave={isHoverEnabled ? () => handleMouseExit(5) : null}
                                 data-testid="container-dayglow-2"
                             >
                                 <a href="/watch/dayglow">
@@ -143,8 +150,8 @@ const Gallery = () => {
                         <a href="/watch/dayglow">
                             <div 
                                 className="image-overlay"
-                                onMouseEnter={() => { handleMouseEnter(6) }}
-                                onMouseLeave={() => { handleMouseExit(6) }}
+                                onMouseEnter={isHoverEnabled ? () => handleMouseEnter(6) : null}
+                                onMouseLeave={isHoverEnabled ? () => handleMouseExit(6) : null}
                                 data-testid="container-dayglow"
                             >
                                 <p>
