@@ -1,4 +1,5 @@
 import React from 'react';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 const GalleryItem = ({
     imagePositionCSS,
@@ -26,12 +27,18 @@ const GalleryItem = ({
                         {title}
                    </p>
                 </div>
-                <img
-                    src={hoverStateBool ? gifSrc : imgSrc}
-                    className="img-fluid"
-                    alt={title}
-                    data-testid={`image-${testId}`}
-                />
+                <IKContext urlEndpoint="https://ik.imagekit.io/jackhwalters/">
+                    <IKImage
+                        path={hoverStateBool ? gifSrc : imgSrc}
+                        transformation={[{
+                            "height": "ih",
+                            "width": "iw",
+                        }]}
+                        lqip={{ active: true }}
+                        className="img-fluid"
+                        data-testid={`image-${testId}`}
+                    />
+                </IKContext>
             </a>
         </div>
     )

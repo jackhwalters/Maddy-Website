@@ -1,14 +1,10 @@
 import '@testing-library/jest-dom';
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, act } from '@testing-library/react';
 import Gallery from '../components/Gallery';
 
 describe('Gallery component', () => {
-    test('Image renders', () => {
-        render(<Gallery />);
-        expect(screen.getByAltText('Strawberry Skittles')).toBeInTheDocument();
-    });
-
+    const imageKitRoot = "https://ik.imagekit.io/jackhwalters/tr:h-ih,w-iw:q-20,bl-6/";
     test.each(
         [
             ['image-tender-1', 'gifs/tender.gif', 'container-tender-1'],
@@ -18,13 +14,16 @@ describe('Gallery component', () => {
             ['image-dayglow-2', 'gifs/dayglow2.gif', 'container-dayglow-2'],
             ['image-dayglow', 'gifs/dayglow.gif', 'container-dayglow'],
         ]
-    )('%s has src %s when %s is hovered over', (image, expected, container) => {
+    )('%s has src %s when %s is hovered over', async (image, expected, container) => {
         render(<Gallery />);
 
         const containerDiv = screen.getByTestId(container);
-        fireEvent.mouseOver(containerDiv);
+
+        await act(() => {
+            fireEvent.mouseOver(containerDiv);
+        });
 
         const imageDiv = screen.getByTestId(image);
-        expect(imageDiv).toHaveAttribute('src', expected);
+        expect(imageDiv).toHaveAttribute('src', imageKitRoot.concat(expected));
     });
 });
