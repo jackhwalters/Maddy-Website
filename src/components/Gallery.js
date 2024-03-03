@@ -42,6 +42,7 @@ const Gallery = () => {
                         hoverStateBool={hoverStateArray[1 - 1][0]}
                         gifSrc={"gifs/tender.gif"}
                         imgSrc={"images/tender/tender1.png"}
+                        imgClass={"img-fluid"}
                     />
                 </Col>
                 <Col lg={4} xs={12}>
@@ -59,6 +60,7 @@ const Gallery = () => {
                                 hoverStateBool={hoverStateArray[2 - 1][0]}
                                 gifSrc={"gifs/dayglow.gif"}
                                 imgSrc={"images/dayglow/dayglow8.png"}
+                                imgClass={"img-fluid"}
                             />
                         </Col>
                     </Row>
@@ -76,6 +78,7 @@ const Gallery = () => {
                                 hoverStateBool={hoverStateArray[3 - 1][0]}
                                 gifSrc={"gifs/dinner_with_your_thoughts.gif"}
                                 imgSrc={"images/dinner_with_your_thoughts/dinner_with_your_thoughts1.png"}
+                                imgClass={"img-fluid"}
                             />
                         </Col>
                     </Row>
@@ -97,6 +100,7 @@ const Gallery = () => {
                                 hoverStateBool={hoverStateArray[4 - 1][0]}
                                 gifSrc={"gifs/i_already_know.gif"}
                                 imgSrc={"images/i_already_know/i_already_know1.png"}
+                                imgClass={"img-fluid left-image"}
                             />
                         </Col>
                     </Row>
@@ -114,6 +118,7 @@ const Gallery = () => {
                                 hoverStateBool={hoverStateArray[5 - 1][0]}
                                 gifSrc={"gifs/dayglow2.gif"}
                                 imgSrc={"images/dayglow/dayglow4.png"}
+                                imgClass={"img-fluid left-image"}
                             />
                         </Col>
                     </Row>
@@ -131,6 +136,7 @@ const Gallery = () => {
                             hoverStateBool={hoverStateArray[6 - 1][0]}
                             gifSrc={"gifs/strawberry_skittles.gif"}
                             imgSrc={"images/strawberry_skittles/strawberry_skittles1.png"}
+                            imgClass={"img-fluid"}
                         />
                 </Col>
             </Row>

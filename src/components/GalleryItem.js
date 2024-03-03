@@ -12,7 +12,8 @@ const GalleryItem = ({
     hoverStateBool,
     hoverStateInd,
     gifSrc,
-    imgSrc
+    imgSrc,
+    imgClass
 }) => {
     return (
         <div 
@@ -35,7 +36,7 @@ const GalleryItem = ({
                             "width": "iw",
                         }]}
                         lqip={{ active: true }}
-                        className="img-fluid"
+                        className={imgClass}
                         data-testid={`image-${testId}`}
                     />
                 </IKContext>
