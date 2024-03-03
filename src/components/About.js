@@ -1,4 +1,5 @@
 import React from 'react';
+import { IKImage, IKContext } from 'imagekitio-react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +11,18 @@ const About = () => {
         <div className="about-container">
             <Container fluid>
                 <Row>
-                    <img className="img-fluid about-image" src="images/pfps/maddy.jpg" alt="About Image" />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/jackhwalters/">
+                        <IKImage
+                            path={"images/pfps/maddy.jpg"}
+                            transformation={[{
+                                "height": "ih",
+                                "width": "iw",
+                            }]}
+                            lqip={{ active: true }}
+                            className={"img-fluid about-image"}
+                            alt={"About Image"}
+                        />
+                    </IKContext>
                 </Row>
                 <Row>
                     <p className="about-bio">
