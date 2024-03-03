@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div className="about-container">
             <Container fluid>
-                <Row>
+                <Row className="about-image-row">
                     <IKContext urlEndpoint="https://ik.imagekit.io/jackhwalters/">
                         <IKImage
                             path={"images/pfps/maddy.jpg"}
@@ -18,9 +18,9 @@ const About = () => {
                                 "height": "ih",
                                 "width": "iw",
                             }]}
+                            loading="lazy"
                             lqip={{ active: true }}
                             className={"img-fluid about-image"}
-                            alt={"About Image"}
                         />
                     </IKContext>
                 </Row>

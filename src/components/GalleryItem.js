@@ -37,7 +37,6 @@ const GalleryItem = ({
                         }]}
                         lqip={{ active: true }}
                         className={imgClass}
-                        alt={title.concat(" Image")}
                         data-testid={`image-${testId}`}
                     />
                 </IKContext>
